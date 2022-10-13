@@ -6,16 +6,24 @@ body {
     color: navy;
     margin-left: 20px;
   }
-  .wrapper {
-    font-size: 1em;
-  }  
-  .px {
-    width: 200px;
-  }
-  .vw {
-    width: 10vw;
+  p, 
+  ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
   }
   
-  .em {
-    width: 10em;
+  .block,
+  li {
+    border: 2px solid blue;
+    padding: .5em;
   }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .block {
+    display: block;
+  }      
+      
