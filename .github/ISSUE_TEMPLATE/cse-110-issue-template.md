@@ -1,10 +1,10 @@
 ---
-name: Standup Notes Template
+name: CSE 110 Issue Template
 about: Describe this issue template's purpose here.
 title: ''
-labels: Create standup Notes
+labels: ''
 assignees: MerlinZCC
 
 ---
 
-
+What is the issue mainly about?
