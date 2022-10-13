@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;/* apply color to my HTML elements */
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  .wrapper {
+    font-size: 1em;
+  }  
+  .px {
+    width: 200px;
+  }
+  .vw {
+    width: 10vw;
+  }
+  
+  .em {
+    width: 10em;
+  }
