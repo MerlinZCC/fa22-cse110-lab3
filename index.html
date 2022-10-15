@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="mystyle.css">
   <style>
    h2 {
-    color: maroon;
+    color: rgb(400,200,200);
     } 
   </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap">
 </head>
 <body>
     <header>
@@ -32,8 +33,9 @@
     </header>
 
     <main>
-        <h2>Date: 10/5/2022</h2>
-        <h2>Agenda</h2>
+        <div><p>Date: <section><p>10/5/2022</p></section></p></p></div>
+        <br>
+        <h2 class = "center">Agenda</h2>
             <ol>
                 <li>Ice Breaker</li>
                 <li>Introduction</li>
@@ -43,8 +45,8 @@
 
         <h2 id = "check-ins">Check-ins</h2>
             <h3>---Attendance List---</h3>
-                <p>
-                    <span class="block">Jason</span>  <span class="block">Park</span>  <span class="block">Merlin</span>
+                <p class = "one">
+                    <span>Jason</span>  <span>Park</span>  <span>Merlin</span>
                 </p>
             <h3>---Questions---</h3>
             <label for="major">What is your major:</label>
@@ -67,7 +69,7 @@
             </datalist>
 
         <h2 id = "documentation">Documentation</h2>
-        <p> Not for today's meeting!</p>
+        <p id="para1"> Not for today's meeting!</p>
 
         <h2 id = "introduction">Introduction</h2>
         <p>First, introduce your <b class="keyword">name </b> and
@@ -78,14 +80,21 @@
 
         <section>
             <h2 id = "logistic">Logistic</h2>
-            <div><strong>Please respect each other in the team!</strong></div>
-            <div>We will have <em>two</em> team leads this quarter!</div>
-            <div>
-                The two team leads will meet with TA weekly. <i> Everyone is 
-                    welcome to join!
-                </i>
+                <div ><strong>Please respect each other in the team!</strong></div>
+                <br>
+                <div>We will have <em>two</em> team leads this quarter!</div>
+                <br>
+                <div>The two team leads will meet with  <i> TA </i> weekly. 
+                </div>
+                <br>
+            <div class = "flex-container">
+                <div style="flex-grow: 400">Jason</div>
+                <div style="flex-shrink: 10">Park</div>
+                <div style="flex-basis: 400px">Merlin</div>
             </div>
         </section>
+        <br>
+        <br>
         <form>
             <fieldset>
               <legend>Do you ackowledge the logistics?</legend>
@@ -110,8 +119,17 @@
             <a href="files/vecteezy_countdown-timer-30-seconds-animation-motion-graphics-on_8079843_911.mp4">MP4</a>
             video.
         </video>
+        <br>
 
+        <div class="grid-container">
+            <div class="item1">Chengcheng Zhang</div>
+            <div class="item2">Computer Engineering</div>
+            <div class="item3">UCSD</div> 
+          </div>
+        <div><p></p></div>
+        <p>The end of 1st meeting.</p>
     </main>
+
     <footer>
         <label for="comment">Feel free to leave a comment:</label>
         <br>
@@ -124,7 +142,7 @@
         <details>
             <summary>Contact Information</summary>
             <ul>
-            <li><a href="https://www.linkedin.com/in/chengcheng-zhang-718839192/">Website</a></li>
+            <li><a href="https://www.linkedin.com/in/chengcheng-zhang-718839192/" target="_blank">Website</a></li>
             <li><a href="chz009@ucsd.edu">Email</a></li>
             </ul>
             <img src="files/kitten.jpeg" alt="image of a kitten" width="250"/></details>
